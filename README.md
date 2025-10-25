@@ -32,34 +32,31 @@ An optional check with `scikit-learn`’s `MultinomialNB` is included for compar
 
 ## Math in One Minute
 
-We classify by maximizing the posterior:
-
-\[
-P(Y\mid X) \propto P(Y)\prod_i P(x_i \mid Y)
-\]
-
-- **Priors** \(P(Y)\): class frequencies (smoothed).
-- **Likelihoods** \(P(x_i \mid Y)\): per-feature categorical frequencies (smoothed).
-- **Laplace smoothing** (\(\alpha=1\)):  
-  \[
-  P(x_i\mid Y)=\frac{\text{count}(x_i,Y)+\alpha}{\text{count}(Y)+\alpha\cdot k}
-  \]
-  where \(k\) is the number of possible values of that feature.
-- Computation uses **log-probabilities** to avoid underflow; final posteriors are normalized.
-
 ---
 
 ## Files in This Repo
 
+---
+
 ## Requirements
+
+---
 
 ## Quickstart
 
+---
+
 ## What You’ll See (Sample Output)
+
+---
 
 ## Tuning & Experiments
 
+---
+
 ## How It Works (Implementation Notes)
+
+---
 
 ## Team
 
