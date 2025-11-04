@@ -129,7 +129,7 @@ if __name__ == "__main__":
     total = len(DATA)
     print("Empirical class priors (unsmoothed):")
     for y in CLASSES:
-        print(f"  P({y}) ≈ {y_counts[y]/total:.4f}  ({y_counts[-----------------------------------------y]}/{total})")
+        print(f"  P({y}) ≈ {y_counts[y]/total:.4f}  ({y_counts[y]}/{total})")
 
     print("\nSmoothed priors used by the model:")
     for y in CLASSES:
@@ -198,3 +198,4 @@ if __name__ == "__main__":
 
     except ImportError:
         print("\n[sklearn check skipped — scikit-learn not installed]")
+
