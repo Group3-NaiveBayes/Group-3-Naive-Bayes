@@ -17,7 +17,6 @@ An optional check with `scikit-learn`’s `MultinomialNB` is included for compar
 - [Quickstart](#quickstart)
 - [What You’ll See (Sample Output)](#what-youll-see-sample-output)
 - [Tuning & Experiments](#tuning--experiments)
-- [How It Works (Implementation Notes)](#how-it-works-implementation-notes)
 - [Team](#team)
 
 ---
@@ -123,10 +122,6 @@ sklearn LOO accuracy: 0.64
 - Add more observations to improve model reliability.
 - Compare performance using different validation strategies (e.g., k-fold cross-validation).
 - Test the model with slightly modified data to observe sensitivity to feature distribution.
----
-
-## How It Works (Implementation Notes)
-
 ---
 
 ## Team
